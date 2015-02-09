@@ -1,2 +1,7 @@
+@import "grid";
 @import "layout";
-@import "components";
+@import "style";
+@import "pages";
+
+// mobile overrides all
+@import "mobile";

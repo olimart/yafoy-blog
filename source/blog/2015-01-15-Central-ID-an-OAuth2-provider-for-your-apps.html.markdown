@@ -15,7 +15,6 @@ Very similar to Facebook, Twitter, or Google apps login for example. Central ID 
 Whether you decide to use it for your end users or internally, you will be able to benefit from single sign-on (SSO) and being able managing online identity from a central place. Not to mention you can revoke access anytime to any application.
 
 Let’s face it, building login and sign up functions over and over is not fun. Time to question ourselves and 
-[improve things](http://blog.yafoy.com/2015/01/code-review-with-style-introducing-codeguard/). As a Business/Agency/Freelancer you operate/manage various systems, Central ID lets you consolidate your users base and identity management while making things easier for your users (no more ‘whats my password again’).
+[improve things](http://blog.yafoy.com/2015/01/code-review-with-style-introducing-codeguard/). As a Business/Agency/Freelancer you operate/manage various systems, Central ID lets you consolidate users and identity management while making things easier for end users (no more ‘whats my password again’).
 
-For now, we provide a ruby gem to integrate in your project. Check out project 
-[documentation on GitHub](https://github.com/yafoy/omniauth-centralid) to support OAuth in Ruby on Rails project.
+For now, we provide a ruby gem to integrate in your project. Check out project [documentation on GitHub](https://github.com/yafoy/omniauth-centralid) to support OAuth in Ruby on Rails project.

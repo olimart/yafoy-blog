@@ -1,14 +1,41 @@
 <footer>
-  <ul>
-    <li class="title">Products</li>
-    <% data.products.each do |product| %>
-      <li><%= link_to product.name, product.url, target: '_blank' %></li>
-    <% end %>
-  </ul>
-  <ul>
-    <li class="title">E-commerce</li>
-    <% data.projects.each do |project| %>
-      <li><%= link_to project.name, project.url %></li>
-    <% end %>
-  </ul>
+  <div class="container large">
+    <div class="row">
+      <div class="three columns">
+        <ul>
+          <li class="title">Products</li>
+          <% data.products.each do |product| %>
+            <li><%= link_to product.name, product.url, target: '_blank' %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">E-commerce</li>
+          <% data.projects.each do |project| %>
+            <li><%= link_to project.name, project.url %></li>
+          <% end %>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Services</li>
+          <li><%= link_to "Web Application Development", "http://yafoy.com/en/#services" %></li>
+          <li><%= link_to "Business Requirements Gathering", "http://yafoy.com/en/#services" %></li>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Contact</li>
+          <li><%= link_to "Call us", "http://yafoy.com/en/#contact" %></li>
+          <li><%= link_to "Write us", "http://yafoy.com/en/#contact" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>
+<div class="copyright bg-grey-light">
+  <div class="container large center">
+    © <%= Time.now.year %> yafoy - Design & Content
+  </div>
+</div>

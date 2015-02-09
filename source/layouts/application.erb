@@ -12,14 +12,16 @@
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <%= yield_content :header %>
-    <%= yield %>
-    <aside>
-      <%#= partial "shared/nav_by_recent" %>
-      <%#= partial "shared/nav_by_tag" %>
-      <%#= partial "shared/nav_by_year" %>
-    </aside>
+    <div class="container">
+      <%= yield_content :header %>
+      <%= yield %>
+      <!-- <aside>
+        <%#= partial "shared/nav_by_recent" %>
+        <%#= partial "shared/nav_by_tag" %>
+        <%#= partial "shared/nav_by_year" %>
+      </aside> -->
+    </div>
     <%= partial "views/shared/footer" %>
-    <%= google_analytics_universal_tag %>
+    <%= partial "views/shared/common_scripts" %>
   </body>
 </html>
