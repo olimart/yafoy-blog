@@ -1,0 +1,14 @@
+<footer>
+  <ul>
+    <li class="title">Products</li>
+    <% data.products.each do |product| %>
+      <li><%= link_to product.name, product.url, target: '_blank' %></li>
+    <% end %>
+  </ul>
+  <ul>
+    <li class="title">E-commerce</li>
+    <% data.projects.each do |project| %>
+      <li><%= link_to project.name, project.url %></li>
+    <% end %>
+  </ul>
+</footer>

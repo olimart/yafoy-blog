@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "yafoy blog" %></title>
+    <!-- <title>yafoy blog<%#= ' - ' + current_article.title unless current_article.nil? %></title> -->
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <style type="text/css"></style>
+    <%= stylesheet_link_tag "application" %>
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <%= yield_content :header %>
+    <%= yield %>
+    <aside>
+      <%#= partial "shared/nav_by_recent" %>
+      <%#= partial "shared/nav_by_tag" %>
+      <%#= partial "shared/nav_by_year" %>
+    </aside>
+    <%= partial "views/shared/footer" %>
+    <%= google_analytics_universal_tag %>
+  </body>
+</html>

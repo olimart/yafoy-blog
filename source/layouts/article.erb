@@ -1,0 +1,12 @@
+<% content_for :header do %>
+  <%= partial "views/shared/header_light" %>
+<% end %>
+
+<% wrap_layout :application do %>
+  <article>
+    <h1 class="center"><%= current_page.data.title %></h1>
+    <%= yield %>
+  </article>
+  <% project = data.projects.sample %>
+  <%= partial "views/shared/project", locals: { project: project} %>
+<% end %>

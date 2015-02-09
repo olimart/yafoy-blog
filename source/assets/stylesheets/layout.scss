@@ -1,0 +1,139 @@
+/*
+ * Colors
+ * --------------------------------------------------
+ */
+$black:      rgba(0, 0, 0, 0.8);
+$green:      #357e35;
+$grey:       #666666;
+$grey-light: #dedede;
+$red:        #b92222;
+
+/*
+ * Layout
+ * --------------------------------------------------
+ */
+body {
+  font-family: 'EB Garamond', serif;
+  color: $grey;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 22px;
+  line-height: 1.6;
+  color: $grey;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  // only for EB Garamond
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 3.25rem;
+  margin-bottom: 1.625rem;
+  color: $black;
+}
+
+h1 {
+  font-size: 3.375rem;
+  line-height: 3.625rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-light;
+}
+
+p, ol, ul, table, blockquote {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+p, li {
+  //font-size: 22px;
+  //color: rgba(0, 0, 0, 0.65);
+  //line-height: 36px;
+}
+
+p > code, li > code {
+  padding: 0.2em 0.4em;
+  font-size: 0.8em;
+  border-radius: 4px;
+  background: $grey-light;
+  color: $black;
+}
+
+
+a {
+  color: $green;
+  //color: $black;
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+ul {
+  color: $grey;
+  li {
+    list-style: none;
+
+    &:before {
+      content: '■';
+      color: $black;
+      margin: 0 16px 0 0;
+    }
+  }
+}
+
+strong {
+  color: $black;
+}
+
+pre {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 1em;
+  margin-bottom: 1em;
+  overflow: scroll;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+blockquote {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid $grey;
+}
+
+footer {
+  //margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid $grey;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 0.9rem;
+      &.title {
+        margin-bottom: 1.25rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
