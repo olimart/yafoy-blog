@@ -13,7 +13,7 @@
         <ul>
           <li class="title">E-commerce</li>
           <% data.projects.each do |project| %>
-            <li><%= link_to project.name, project.url %></li>
+            <li><%= link_to project.name, project.url, target: "_blank" %></li>
           <% end %>
         </ul>
       </div>
