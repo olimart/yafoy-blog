@@ -18,5 +18,4 @@ From an e-commerce perspective I'd be curious to know about items retention rate
 
 Stay tuned for more box-delivered-to-you-every-month concepts this year. I already said enough for the moment...
 
-
-[![frank_and_oak](http://blog.yafoy.com/wp-content/uploads/frank_and_oak.jpg)](http://blog.yafoy.com/2012/12/frank-oak-online-clothing-club/frank_and_oak/)
+![frank_and_oak](articles/frank_and_oak.jpg)

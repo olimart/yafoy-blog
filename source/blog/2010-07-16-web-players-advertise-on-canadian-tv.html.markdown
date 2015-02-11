@@ -1,5 +1,5 @@
 ---
-title: Web players advertise on TV in Canada
+title: Web players advertise on Canadian TV
 date: '2010-07-16'
 tags:
 - advertising

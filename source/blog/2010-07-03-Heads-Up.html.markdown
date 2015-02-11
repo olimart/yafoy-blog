@@ -1,7 +1,6 @@
 ---
 title: Heads Up
 date: '2010-07-03'
-intro: rgrgtr
 tags:
 - announcement
 - e-commerce

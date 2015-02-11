@@ -1,14 +1,4 @@
-/*
- * Colors
- * --------------------------------------------------
- */
-$black:      rgba(0, 0, 0, 0.8);
-$blue:       #0076df;
-$blue-dark:  #304650;
-$green:      #357e35;
-$grey:       #666666;
-$grey-light: #dedede;
-$red:        #b92222;
+@import "colors";
 
 /*
  * Layout
@@ -35,7 +25,6 @@ header {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 6rem;
-  //border-bottom: 1px solid $grey-light;
 }
 
 footer {

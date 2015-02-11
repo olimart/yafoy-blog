@@ -1,5 +1,5 @@
 ---
-title: 'Step 3: Find the right partners to develop YOUR site'
+title: 'Step 3: Finding the right partners to develop YOUR site'
 date: '2010-11-01'
 tags:
 - e-business
@@ -10,8 +10,8 @@ tags:
 ---
 
 Read about 
-[Step 1](http://stratmarkeco.com/blog/2010/07/step-1-find-company-name-and-build-identity/) and 
-[Step 2](http://stratmarkeco.com/blog/2010/07/step-2-find-payment-gateway-in-canada/)
+[Step 1](http://stratmarkeco.com/blog/2010/07/step-1-finding-company-name-and-building-identity/) and 
+[Step 2](http://stratmarkeco.com/blog/2010/07/step-2-finding-payment-gateway-in-canada/)
 
 Here is step 3 now: How to build a platform to sell your stuff. Our experience.
 

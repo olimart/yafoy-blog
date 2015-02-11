@@ -1,23 +1,31 @@
 require "extensions/views"
 
 activate :views
+activate :directory_indexes
 
 configure :development do
   activate :livereload
 end
 
-set :css_dir, 'assets/stylesheets'
-set :js_dir, 'assets/javascripts'
+set :css_dir,    'assets/stylesheets'
+set :js_dir,     'assets/javascripts'
 set :images_dir, 'assets/images'
-set :fonts_dir, 'assets/fonts'
-set :layout, 'layouts/application'
+set :fonts_dir,  'assets/fonts'
+set :layout,     'layouts/application'
+set :relative_links, true
 
 page "blog/*", layout: :article
 
+# GA
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-714749-17'
   ga.development = false
 end
+
+# XML sitemap
+set :url_root, 'http://blog.yafoy.com'
+activate :search_engine_sitemap, default_priority: 1,
+                                 default_change_frequency: "daily"
 
 # Build-specific configuration
 configure :build do
@@ -41,6 +49,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  ignore "/shared/_project.html"
+  ignore "/styleguide.html"
 end
 
 
@@ -49,9 +60,9 @@ activate :deploy do |deploy|
   deploy.method = :git
 end
 
-###
+
 # Blog settings
-###
+# ------------------------------------------------------------------------------
 
 # Time.zone = "UTC"
 
@@ -59,17 +70,20 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
 
+  blog.permalink = ":year/:month/:title"
+
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  # blog.layout = "layout"
+  # blog.layout = "layouts/article"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
+  # blog.new_article_template = 'source/layouts/article.erb'
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
@@ -81,15 +95,6 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
-
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
 
 ###
 # Page options, layouts, aliases and proxies

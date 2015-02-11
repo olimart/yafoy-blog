@@ -13,5 +13,4 @@ Sneak preview of a coming new e-commerce project dedicated to promote art and cr
 
 Coming up later this year.
 
-
-[![](http://blog.yafoy.com/wp-content/uploads/project-1024x646.png)](http://blog.yafoy.com/2011/04/fundraising-platform-for-art-and-creative-projects/project/)
+![Riboond](articles/riboond_screenshot.png)

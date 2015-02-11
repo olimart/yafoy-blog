@@ -1,5 +1,5 @@
 ---
-title: 'Step 2: Find Payment Gateway in Canada'
+title: 'Step 2: Finding Payment Gateway in Canada'
 date: '2010-07-29'
 tags:
 - e-business
@@ -7,10 +7,9 @@ tags:
 ---
 
 Step 1 is 
-[here](http://stratmarkeco.com/blog/2010/07/step-1-find-company-name-and-build-identity/).
+[here](http://stratmarkeco.com/blog/2010/07/step-1-finding-company-name-and-building-identity/).
 
 Finding the perfect payment gateway  is a triangular equation between: security (will my client trust it?), financial commission (how big their pie is?) and e-commerce integration (will it contribute to cart abandonment?)
-
 
 [Koopon](http://koopon.ca/) targets the Canadian Market exclusively so it mades sense for us to shop local to give another level of confidence to client.  We wanted to outsource payment to a well-known bank just to get a familiar logo (TD Canada Trust, RBC, Scotia Bank, BMO...). Unfortunately you quickly realize you have just a few options available.
 

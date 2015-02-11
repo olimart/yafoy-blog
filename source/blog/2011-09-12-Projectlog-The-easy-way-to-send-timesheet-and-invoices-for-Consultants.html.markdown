@@ -13,25 +13,13 @@ Another web-based project on the go:
 
 Projectlog aims at helping consultants and freelancers track time, produce time sheets, and sent invoices. The plan is to build a very simple expenses tracking system around it to make a complete business management solution for Consultants and Freelancers.
 
-Projectlog lets you:*Track Time
+Projectlog lets you:
 
-	
-*Produce Timesheet
-
-	
-*Send/Share Timesheet (Email, PDF, Public view)
-
-	
-*Manage Projects
-
-	
-*Manage Customers and Contacts
-
-	
-*Send Invoices
-
-	
-*Record Payments
-
-	
-*Track expenses
+* Track Time
+* Produce Timesheet
+* Send/Share Timesheet (Email, PDF, Public view)
+* Manage Projects
+* Manage Customers and Contacts
+* Send Invoices
+* Record Payments
+* Track expenses

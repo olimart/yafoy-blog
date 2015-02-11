@@ -19,6 +19,5 @@ User Experience may be enhanced by simple things like:High resolution pictures, 
 
 I have put together a review of BMW Das Motorrad based on these aspects, wireframed a few pages, replacing elements and making suggestions so the Web channel can catch up the BMW experience and some of their competitors.
 This is must be considered as a side project, a quick evaluation on usability and UX. I submitted this work to BMW Motorrad a couple weeks ago and now making it public.
- 
 
 [BMW Das Motorrad website usability report](http://www.scribd.com/doc/58108491/BMW-Das-Motorrad-website-usability-report)

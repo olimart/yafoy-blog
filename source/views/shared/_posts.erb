@@ -1,0 +1,9 @@
+<div class="posts">
+  <% articles.each_with_index do |article, i| %>
+    <div class="post">
+      <span class="h3 post-date"><%= article.date.strftime('%b %e, %Y') %></span>
+      <h2 class="h3 post-title"><%= link_to article.title, article %></h2>
+      <%= article.data.intro %>
+    </div>
+  <% end %>
+</div>

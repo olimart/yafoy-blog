@@ -19,4 +19,4 @@ Spent quite some time redesigning our email template for mobile devices. Testing
 Here is the final result. The importance was to get the message about today's deal in a snap for the eye. We think people will scan the title then make a decision so important to make it stand out. Of course you can see more, check out merchant information and read description. Even though you can click anywhere on the email to see the deal we felt it was important to keep a 'call to action' button.
 
 
-[![Mobile email template](http://blog.yafoy.com/wp-content/uploads/iphone_koopon_email.jpg)](http://blog.yafoy.com/2011/12/designing-email-for-mobile-daily-deal-study-case/iphone_koopon_email/)
+![Mobile email template](articles/iphone_koopon_email.jpg)]

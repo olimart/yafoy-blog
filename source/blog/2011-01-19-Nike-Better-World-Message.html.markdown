@@ -9,5 +9,4 @@ tags:
 
 >" Sport reduces disease, lowers crimes, rallies communities "
 
-Watch the full video on Nike Better World 
-[site](http://nikebetterworld.com/index).
+Watch the full video on Nike Better World [site](http://nikebetterworld.com/index).

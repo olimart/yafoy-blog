@@ -2,7 +2,7 @@
 pageable: true
 per_page: 12
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
+<h1 class="center">Articles tagged '<%= tagname %>'</h1>
 
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -12,11 +12,7 @@ per_page: 12
   <% end %>
 <% end %>
 
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ul>
+<%= partial "views/shared/posts", locals: {articles: page_articles} %>
 
 <% if paginate %>
   <% if next_page %>

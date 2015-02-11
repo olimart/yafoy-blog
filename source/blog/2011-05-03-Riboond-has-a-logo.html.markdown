@@ -12,5 +12,4 @@ tags:
 [here](http://blog.yafoy.com/2011/04/fundraising-platform-for-art-and-creative-projects/). Logo and UI designed by 
 [3Drops](http://dribbble.com/3drops).
 
-
-[![Riboond logo](http://blog.yafoy.com/wp-content/uploads/Logo_riboond.png)](http://blog.yafoy.com/2011/05/riboond-has-a-logo/logo_riboond/)
+![Riboond logo](articles/riboond_logo.png)

@@ -8,7 +8,6 @@ tags:
 - lunch-box
 ---
 
-[Bentooo](http://bentooo.com) or the art of japanese lunch boxes. Find a wide range of traditional and modern bento boxes from Japan. We also supply accessories like bags (furoshiki), cutlery and napkins to go along your bento.
+[Joli Bento](https://jolibento.com) or the art of japanese lunch boxes. Find a wide range of traditional and modern bento boxes from Japan. We also supply accessories like bags (furoshiki), cutlery and napkins to go along your bento.
 
-
-![bento lunch box](http://blog.yafoy.com/wp-content/uploads/slide-média-sociaux.jpg)
+![bento lunch box](articles/bento_house.jpg)

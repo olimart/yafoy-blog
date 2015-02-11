@@ -7,6 +7,5 @@
     <h1 class="center"><%= current_page.data.title %></h1>
     <%= yield %>
   </article>
-  <% project = data.projects.sample %>
-  <%= partial "views/shared/project", locals: { project: project} %>
+  <%= partial("views/shared/project", locals: {project: data.projects.sample}) %>
 <% end %>

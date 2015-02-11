@@ -1,5 +1,5 @@
 ---
-title: The Dallas Mavericks are NBA champion
+title: Dallas Mavericks are the new NBA champion
 date: '2011-06-16'
 tags:
 - basketball

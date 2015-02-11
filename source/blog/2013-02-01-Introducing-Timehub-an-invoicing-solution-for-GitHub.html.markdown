@@ -24,5 +24,6 @@ We support a variety of formats to
 [add time to your commit](https://timehub.me/help).
 
 Questions? Suggestions? 
-[Get in Touch](http://timehub.me). Feel free to check out 
 [Projectlog](http://getprojectlog.com/) for a more complete invoicing & billing application with accounting functions for consultant and freelancer.
+
+**Update January, 2015: Timehub is now retired.**

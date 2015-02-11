@@ -1,7 +1,7 @@
 ---
 pageable: true
 ---
-<h1>Archive for
+<h1 class="center">Archive for
   <% case page_type
      when 'day' %>
     <%= Date.new(year, month, day).strftime('%b %e %Y') %>
@@ -20,11 +20,7 @@ pageable: true
   <% end %>
 <% end %>
 
-<ul>
-  <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-  <% end %>
-</ul>
+<%= partial "views/shared/posts", locals: {articles: page_articles} %>
 
 <% if paginate %>
   <% if next_page %>
