@@ -12,6 +12,7 @@ set :js_dir,     'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir,  'assets/fonts'
 set :layout,     'layouts/application'
+# Relative links needed to deploy to Github Pages
 set :relative_links, true
 
 page "blog/*", layout: :article
@@ -51,9 +52,12 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 
   ignore "/shared/_project.html"
+  ignore "/shared/_articles.html"
   ignore "/styleguide.html"
 end
 
+# Deployment strategy
+# -------------------------------------------------------------------------------
 
 activate :deploy do |deploy|
   deploy.build_before = true
