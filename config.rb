@@ -1,11 +1,6 @@
 require "extensions/views"
 
 activate :views
-activate :directory_indexes
-
-configure :development do
-  activate :livereload
-end
 
 set :css_dir,    'assets/stylesheets'
 set :js_dir,     'assets/javascripts'
@@ -16,53 +11,7 @@ set :layout,     'layouts/application'
 set :relative_links, true
 
 page "blog/*", layout: :article
-
-# GA
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-714749-17'
-  ga.development = false
-end
-
-# XML sitemap
-set :url_root, 'http://blog.yafoy.com'
-activate :search_engine_sitemap, default_priority: 1,
-                                 default_change_frequency: "daily"
-
-# Build-specific configuration
-configure :build do
-  require "favicon_maker"
-  activate :favicon_maker
-
-  # Relative assets needed to deploy to Github Pages
-  activate :relative_assets
-
-  # For example, change the Compass output style for deployment
-  activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
-
-  # Enable cache buster
-  # activate :asset_hash
-
-  # Use relative URLs
-  # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
-
-  ignore "/shared/_project.html"
-  ignore "/shared/_articles.html"
-  ignore "/styleguide.html"
-end
-
-# Deployment strategy
-# -------------------------------------------------------------------------------
-
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.method = :git
-end
+page "/feed.xml", layout: false
 
 
 # Blog settings
@@ -73,8 +22,7 @@ end
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
-
-  blog.permalink = ":year/:month/:title"
+  blog.permalink = "{year}/{month}/{title}.html"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
@@ -98,7 +46,64 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
-page "/feed.xml", layout: false
+
+# Extensions
+# -------------------------------------------------------------------------------
+# activate after glog settings as per Middleman docs.
+activate :directory_indexes
+
+# GA
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-714749-17'
+  ga.development = false
+end
+
+# XML sitemap
+set :url_root, 'http://blog.yafoy.com'
+activate :search_engine_sitemap, default_priority: 1,
+                                 default_change_frequency: "daily"
+
+
+# Build-specific configuration
+# -------------------------------------------------------------------------------
+configure :build do
+  require "favicon_maker"
+  activate :favicon_maker
+
+  # Relative assets needed to deploy to Github Pages
+  activate :relative_assets
+
+  # For example, change the Compass output style for deployment
+  activate :minify_css
+
+  # Minify Javascript on build
+  # activate :minify_javascript
+
+  # Enable cache buster
+  # activate :asset_hash
+
+  # Or use a different image path
+  # set :http_prefix, "/Content/images/"
+
+  ignore "/shared/_project.html"
+  ignore "/shared/_articles.html"
+  ignore "/styleguide.html"
+end
+
+
+# Deployment strategy
+# -------------------------------------------------------------------------------
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
+end
+
+
+# Development
+# -------------------------------------------------------------------------------
+configure :development do
+  activate :livereload
+end
 
 ###
 # Page options, layouts, aliases and proxies
