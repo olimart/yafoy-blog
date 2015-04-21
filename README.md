@@ -9,6 +9,12 @@ built with Middleman
 
 ## Usage
 
+**New Article**
+
+```ruby
+middleman article TITLE
+```
+
 **Build**
 
 ```ruby

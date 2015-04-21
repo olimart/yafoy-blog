@@ -7,6 +7,7 @@
     <title><%= current_page.data.title || "yafoy blog" %></title>
     <!-- <title>yafoy blog<%#= ' - ' + current_article.title unless current_article.nil? %></title> -->
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css"></style>
     <%= stylesheet_link_tag "application" %>
     <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
