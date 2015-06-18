@@ -22,7 +22,6 @@ tags:
 
 We’ve leveraged a couple of Mixture specific snippets such as the site map function which lets you build navigation elements (using the model data mixture.sitemap)
 
-
 After a few iterations, we re-used models and included shared data on different blocks to remain DRY
 
 - Keep playing with JSON since use cases are going to explode
@@ -36,7 +35,6 @@ After a few iterations, we re-used models and included shared data on different 
 - Liquid template engine is a good choice. There are other options out there (Mustache, HAML…) but liquid is a reasonable and complete solution. Create liquid loops from JSON files is the way to go
 
 - Again, coming from Ruby on Rails, support for preprocessors like Sass, LESS, CoffeeScript and Compass is a requirement
-
 
 - Boilerplates and templates. Start from a set of defined boilerplates or your own template. In most cases we end up deleting all files but loading Twitter Bootstrap or Zurb Foundation from source is a nice addition
 
