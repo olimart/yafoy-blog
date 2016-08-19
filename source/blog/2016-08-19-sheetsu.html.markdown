@@ -1,0 +1,31 @@
+---
+title: Build a web service from a spreadsheet
+date: 2016-08-19 13:23 UTC
+tags:
+- api
+- web service
+---
+
+[Sheetsu](https://sheetsu.com) is a great tool to turn any spreadsheet (Google Sheets) into a REST API. It lets you save or query a spreadsheet just like a database.
+
+We do not track customers' gender in our e-commerce applications, however, it is essential to know who our customer base is. So, we've imported the most common first names into Google sheets and turn it into a searchable database.
+
+![Google Sheets as a database](articles/google_sheets.png)
+
+Sheetsu lets us search by column name and return results as JSON.
+
+<pre>
+$ curl https://sheetsu.com/apis/v1.0/xxxxx/normalized/alain
+=> [{"first_name":"Alain","gender":"m","normalized":"alain"}]
+</pre>
+
+We can then compare customers' first names against our master list and provide statistics, such as:
+
+<pre>
+male: 25 (25%)
+female: 65 (65%)
+undetermined: 5 (5%)
+no match: 5 (5%)
+</pre>
+
+The beauty of such system is that anyone knows how to use a spreadsheet making super easy to enrich and improve the list. Easy to implement, easy to maintain, everyone wins.
