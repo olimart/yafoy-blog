@@ -1,5 +1,5 @@
 ---
-title: formtastic-supports-auto-response
+title: Formtastic supports auto response
 date: 2016-12-19 04:55 UTC
 tags:
 - Feature
@@ -7,7 +7,7 @@ tags:
 
 ---
 
-This is the second major feature we are introducing in [Formtastic](https://formtastic.herokuapp.com), our very own back-end solution for web forms.
+This is the second major feature that we are introducing recently in [Formtastic](https://formtastic.herokuapp.com), our very own back-end solution for web forms.
 
 Auto response lets you send out an email reply when people submits your form. Just set the email body and we will write back on your behalf every time a new submission comes in.
 
