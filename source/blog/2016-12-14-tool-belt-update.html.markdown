@@ -1,5 +1,5 @@
 ---
-title: Toolbet update
+title: Tool belt update
 date: 2016-12-14 23:26 UTC
 tags:
 ---
@@ -14,4 +14,4 @@ tags:
 
 3. [Heap Analytics](https://heapanalytics.com) automates away the annoying parts of user analytics by tracking it all. This means that you don't need to turn on specific user actions after feature launch. You get immediate feedback, stats and graphs with easy-to-build funnels.
 
-Check them out, maybe you will also start recommending these tools.
+Check them out, and maybe you too will start recommend these tools.
