@@ -175,6 +175,12 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>http://blog.yafoy.com/blog/2018/01/changelog-as-a-service/</loc>
+    <lastmod>2018-01-30T00:01:21-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>http://blog.yafoy.com/blog/2017/12/warehouse-robots-overview/</loc>
     <lastmod>2017-12-08T00:59:00-05:00</lastmod>
     <changefreq>daily</changefreq>
@@ -889,6 +895,24 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>http://blog.yafoy.com/blog/tags/saas/</loc>
+    <lastmod>2017-12-08T00:39:37-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://blog.yafoy.com/blog/tags/kb/</loc>
+    <lastmod>2017-12-08T00:39:37-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://blog.yafoy.com/blog/tags/release-note/</loc>
+    <lastmod>2017-12-08T00:39:37-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>http://blog.yafoy.com/blog/tags/video/</loc>
     <lastmod>2017-12-08T00:39:37-05:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1346,6 +1370,24 @@
   </url>
   <url>
     <loc>http://blog.yafoy.com/blog/tags/open-source/</loc>
+    <lastmod>2017-12-08T00:39:37-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://blog.yafoy.com/blog/2018/</loc>
+    <lastmod>2017-12-08T00:39:37-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://blog.yafoy.com/blog/2018/01/</loc>
+    <lastmod>2017-12-08T00:39:37-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>http://blog.yafoy.com/blog/2018/01/30/</loc>
     <lastmod>2017-12-08T00:39:37-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
