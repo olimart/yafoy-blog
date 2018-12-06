@@ -1,0 +1,16 @@
+---
+layout: post
+title: Heads Up
+date: '2010-07-03'
+tags:
+- announcement
+- e-commerce
+- ottawa
+- strategy
+---
+
+June 30, 2010, the day where I finally left my work as Business Analyst/Project Manager to focus on what I've been passively following for a while now: e-business or e-commerce up to you.
+
+Hint, my first project is not 100% virtual but actually requires interaction with brick-and-mortar owners, supports local economy and provides customers with value on a daily basis. More to come. Meanwhile please check out [Koopon.ca](http://www.koopon.ca)
+
+I will be using this blog to relate everything we've been through to make it live.

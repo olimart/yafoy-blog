@@ -1,0 +1,50 @@
+---
+---
+
+@import "colors";
+
+ul {
+  li {
+    list-style: none;
+
+    &:before {
+      content: '■';
+      color: $black;
+      margin: 0 16px 0 0;
+    }
+  }
+}
+
+strong {
+  color: $black;
+}
+
+pre {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 1em;
+  margin-bottom: 1em;
+  overflow: scroll;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+blockquote {
+  text-align: center;
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-light;
+}
+
+/*
+ * Helpers
+ * --------------------------------------------------
+ */
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.bg-grey-light { background: $grey-light; }

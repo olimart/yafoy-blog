@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Nouvelle version du site yafoy.com | Le journal de Yafoy</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Nouvelle version du site yafoy.com" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Notre site marketing, yafoy.com, fait peau neuve pour mieux refléter notre positionnement actuel, à savoir le développement d’applications web pour industries. Notre site est maintenant “responsive”, c’est-à-dire que le contenu s’adapte à tout type d’appareil (ordinateur, tablette, iPad, téléphone, iPhone) de manière à le rendre lisible sur tout support." />
+<meta property="og:description" content="Notre site marketing, yafoy.com, fait peau neuve pour mieux refléter notre positionnement actuel, à savoir le développement d’applications web pour industries. Notre site est maintenant “responsive”, c’est-à-dire que le contenu s’adapte à tout type d’appareil (ordinateur, tablette, iPad, téléphone, iPhone) de manière à le rendre lisible sur tout support." />
+<link rel="canonical" href="http://localhost:4000/2012/11/26/nouvelle-version-du-site-yafoy.html" />
+<meta property="og:url" content="http://localhost:4000/2012/11/26/nouvelle-version-du-site-yafoy.html" />
+<meta property="og:site_name" content="Le journal de Yafoy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-11-26T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"Nouvelle version du site yafoy.com","dateModified":"2012-11-26T00:00:00-05:00","datePublished":"2012-11-26T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2012/11/26/nouvelle-version-du-site-yafoy.html"},"description":"Notre site marketing, yafoy.com, fait peau neuve pour mieux refléter notre positionnement actuel, à savoir le développement d’applications web pour industries. Notre site est maintenant “responsive”, c’est-à-dire que le contenu s’adapte à tout type d’appareil (ordinateur, tablette, iPad, téléphone, iPhone) de manière à le rendre lisible sur tout support.","@type":"BlogPosting","url":"http://localhost:4000/2012/11/26/nouvelle-version-du-site-yafoy.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/stylesheets/application.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Le journal de Yafoy" /><link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <!-- Middleman carry over to check -->
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <!-- <title><%= current_page.data.title || "yafoy blog" %></title>
+  <%= yield_content :amp %>
+  <!-- <title>yafoy blog<%#= ' - ' + current_article.title unless current_article.nil? %></title> -->
+</head>
+<body>
+    <main class="container" aria-label="Content"><header>
+  <a href="/" rel="author">
+    <img src="/assets/images/yafoy-mark.png" alt="logo" width="40px">
+  </a>
+</header>
+<!-- <% content_for :amp do %>
+    <link rel="amphtml" href="https://mercury.postlight.com/amp?url=<%= 'http://blog.yafoy.com' + current_page.url %>">
+  <% end %> -->
+
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="center">
+      Nouvelle version du site yafoy.com
+    </h1>
+    <p>Notre site marketing,
+<a href="http://yafoy.com">yafoy.com</a>, fait peau neuve pour mieux refléter notre positionnement actuel, à savoir le développement d’applications web pour industries. Notre site est maintenant “responsive”, c’est-à-dire que le contenu s’adapte à tout type d’appareil (ordinateur, tablette, iPad, téléphone, iPhone) de manière à le rendre lisible sur tout support.</p>
+
+<p>Ceci est particulièrement important car les applications web que nous développons pour nos clients sont toutes mobiles. Nous travaillons en effet sur des applications de gestion d’inventaire , gestion de stock, d’entrepôt, de facturation mobile…pour lesquelles la mobilité est source d’économie, d’efficacité, et de gain de temps.</p>
+
+<p>L’autre aspect c’est le message. Nous avons voulu indiquer dès le départ notre mission et nos services, ainsi qu’afficher nos réalisations en version plus grande. Pour agrémenter le tout , nous avons voulu offrir une expérience différente à chacun, c’est pourquoi la couleur de fond est aléatoire. Rafraichissez la page pour voir les différentes variations.</p>
+
+<p>Enfin, nous utilisons le CMS
+<a href="http://http://getkirby.com">Kirby</a> comme plateforme. Kirby est un CMS sans base de données qui repose sur une architecture de fichiers tout simplement.</p>
+
+  </article>
+  <div id="featured-project"></div>
+</main>
+
+<script type="text/javascript">
+  let wrapper = document.getElementById("featured-project")
+  let projects = [{"name":"Joli Bento","url":"https://jolibento.com","description":"Traditional Bento Lunch Box from Japan","image":"bento.png"},{"name":"Les Bonbecs","url":"https://lesbonbecs.com","description":"Candy from all over the world without leaving home","image":"bonbecs.png"},{"name":"T•Surprise","url":"http://tsurprise.com","description":"Enjoy our selection of Tea, infusion and herbal tea delivered each month to your door","image":"tsurprise.png"}]
+  let project = projects[Math.floor(Math.random()*projects.length)]
+  let imgURL = "/assets/images/projects/" + project.image
+  let content = `
+  <div class="row featured-project">
+    <div class="two columns">
+      <a href="${project.url}" target="_blank">
+        <img src="${imgURL}" alt="${project.name }" width="100">
+      </a>
+    </div>
+    <div class="ten columns">
+      <strong>${project.name}</strong>
+      <br>
+      ${project.description}
+    </div>
+  </div>`
+  wrapper.innerHTML = content
+</script>
+<footer>
+  <div class="container large">
+    <div class="row">
+      <div class="three columns">
+        <ul>
+          <li class="title">Products</li>
+          
+            <li>
+              <a href="https://log.camp/" target="_blank">
+                Logcamp
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://centralid.herokuapp.com/" target="_blank">
+                Central ID
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://codeguard.herokuapp.com/" target="_blank">
+                Codeguard
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://formz.herokuapp.com/" target="_blank">
+                Formtastic
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://shiptower.herokuapp.com/" target="_blank">
+                Shiptower
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">E-commerce</li>
+          
+            <li>
+              <a href="https://jolibento.com" target="_blank">
+                Joli Bento
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://lesbonbecs.com" target="_blank">
+                Les Bonbecs
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://tsurprise.com" target="_blank">
+                T•Surprise
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Services</li>
+          <li>
+            <a href="">
+              Web Application Development
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Business Requirements Gathering
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Contact</li>
+          <li>
+            <a href="">
+              Call us
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Write us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright bg-grey-light">
+  <div class="container large center">
+    © 2018
+    yafoy - Design & Copy
+  </div>
+</div>
+<script src="//use.typekit.net/dkj0zdv.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</body>
+</html>

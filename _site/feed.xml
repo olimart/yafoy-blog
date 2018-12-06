@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-06T15:46:23-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Le journal de Yafoy</title><subtitle>We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps.</subtitle><entry><title type="html">Changelog As A Service</title><link href="http://localhost:4000/2018/01/29/changelog-as-a-service.html" rel="alternate" type="text/html" title="Changelog As A Service" /><published>2018-01-29T23:50:00-05:00</published><updated>2018-01-29T23:50:00-05:00</updated><id>http://localhost:4000/2018/01/29/changelog-as-a-service</id><content type="html" xml:base="http://localhost:4000/2018/01/29/changelog-as-a-service.html">&lt;p&gt;Kicking off 2018 with a new product called Supportive combining both the functions of Knowledge Base and Changelog.&lt;/p&gt;
+
+&lt;p&gt;Looking back at this blog we’ve realized that we shipped a lot but did not write enough. As we all say, we’ll do better next year. At least, we’ll try.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://formz.herokuapp.com&quot;&gt;Formtastic&lt;/a&gt; changelog rendered through a widget. We plan to improve widget’s interaction with a preview of each announcement inline later in the year.&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;</content><author><name></name></author><category term="SAAS" /><category term="KB" /><category term="Release note" /><summary type="html">Kicking off 2018 with a new product called Supportive combining both the functions of Knowledge Base and Changelog.</summary></entry><entry><title type="html">Warehouse Robots Overview</title><link href="http://localhost:4000/2017/12/08/warehouse-robots-overview.html" rel="alternate" type="text/html" title="Warehouse Robots Overview" /><published>2017-12-08T00:43:00-05:00</published><updated>2017-12-08T00:43:00-05:00</updated><id>http://localhost:4000/2017/12/08/warehouse-robots-overview</id><content type="html" xml:base="http://localhost:4000/2017/12/08/warehouse-robots-overview.html">&lt;p&gt;To conclude 2017 here is a tour of robots tailored for logistics.&lt;/p&gt;
+
+&lt;p&gt;Amazon has been leading the pack for a long time but more and more robots are crawling warehouses picking items and helping humans prepare packages faster and faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Robots sorting system help Shengton dispatch 200 000 packages per day&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_QndP_PCRSw&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Students compete at Amazon Robotics Challenge and the winner is Cartman from Australia&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yVIRLao1E28&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Cainiao’s intelligent warehouse from Alibaba&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bvEzDNxj7hA&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Tharsus provides the horsepower for Ocado’s new robotic warehouse&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mfLI9uQY1U8&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Rfly is a drone reading RFID tags&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/fvPR09noiL8&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allow=&quot;encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><category term="video" /><category term="logistics" /><category term="automation" /><summary type="html">To conclude 2017 here is a tour of robots tailored for logistics.</summary></entry><entry><title type="html">Magik API is Zapier for the Enterprise</title><link href="http://localhost:4000/2016/12/19/magik-api-is-zapier-for-enterprise.html" rel="alternate" type="text/html" title="Magik API is Zapier for the Enterprise" /><published>2016-12-19T20:48:00-05:00</published><updated>2016-12-19T20:48:00-05:00</updated><id>http://localhost:4000/2016/12/19/magik-api-is-zapier-for-enterprise</id><content type="html" xml:base="http://localhost:4000/2016/12/19/magik-api-is-zapier-for-enterprise.html">&lt;p&gt;Special anouncement. We are currently building an automation solution to help organizations connect their systems altogether.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://magikapi.com&quot;&gt;Magik API&lt;/a&gt;’s mission is to make it easy create workflows between web apps and exchange data. Think &lt;a href=&quot;https://wikipedia.org/wiki/Extract-transform-load&quot;&gt;ETL&lt;/a&gt; (Extract Transform Load) with a user interface.&lt;/p&gt;
+
+&lt;p&gt;We want to help organizations automate tasks between apps and leverage their own data hub.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://magikapi.com&quot;&gt;Sign up&lt;/a&gt; to learn more. Beta coming early 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 2018 - Due to time constraint (and complexity) this project is postponed at the moment.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="project" /><category term="automation" /><category term="API" /><category term="integrations" /><summary type="html">Special anouncement. We are currently building an automation solution to help organizations connect their systems altogether.</summary></entry><entry><title type="html">Formtastic supports auto response</title><link href="http://localhost:4000/2016/12/18/formtastic-supports-auto-response.html" rel="alternate" type="text/html" title="Formtastic supports auto response" /><published>2016-12-18T23:55:00-05:00</published><updated>2016-12-18T23:55:00-05:00</updated><id>http://localhost:4000/2016/12/18/formtastic-supports-auto-response</id><content type="html" xml:base="http://localhost:4000/2016/12/18/formtastic-supports-auto-response.html">&lt;p&gt;This is the second major feature that we are introducing recently in &lt;a href=&quot;https://formz.herokuapp.com&quot;&gt;Formtastic&lt;/a&gt;, our very own back-end solution for web forms.&lt;/p&gt;
+
+&lt;p&gt;Auto response lets you send out an email reply when people submits your form. Just set the email body and we will write back on your behalf every time a new submission comes in.&lt;/p&gt;
+
+&lt;p&gt;A couple months ago we released integration with &lt;a href=&quot;http://blog.yafoy.com/blog/2016/08/zapier-formtastic/&quot;&gt;Zapier&lt;/a&gt; opening it up to all kinds of automated workflows by connecting your favourite services (Gmail, Mailchimp, Salesforce, Trello, Slack…).&lt;/p&gt;</content><author><name></name></author><category term="Feature" /><category term="Autoresponse" /><summary type="html">This is the second major feature that we are introducing recently in Formtastic, our very own back-end solution for web forms.</summary></entry><entry><title type="html">Toolbelt update</title><link href="http://localhost:4000/2016/12/14/tool-belt-update.html" rel="alternate" type="text/html" title="Toolbelt update" /><published>2016-12-14T18:26:00-05:00</published><updated>2016-12-14T18:26:00-05:00</updated><id>http://localhost:4000/2016/12/14/tool-belt-update</id><content type="html" xml:base="http://localhost:4000/2016/12/14/tool-belt-update.html">&lt;p&gt;2016 is coming to an end. Time to reflect on the tools that made a difference in our e-commerce ventures.&lt;/p&gt;
+
+&lt;p&gt;3 new tools join our default stack and will be installed for any new projects.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://drift.com&quot;&gt;Drift&lt;/a&gt; is a live-chat system for your site. It supports multi users and don’t offer too many options (which we appreciate). Visitors dig the live interaction, reactivity and getting answers before making a decision. Intercom is another option (we haven’t played with it but lots of people seems happy with it).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://skylight.io&quot;&gt;Skylight&lt;/a&gt; provides data insights for Rails applications. Since we are a Ruby on Rails shop this comes handy when comes time to get a second opinion on your implementation against production traffic. Nice UI, well-thought features and the weekly report challenges you to increase the speed of your applications week after week.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://heapanalytics.com&quot;&gt;Heap Analytics&lt;/a&gt; automates away the annoying parts of user analytics by tracking it all. This means that you don’t need to turn on specific user actions after feature launch. You get immediate feedback, stats and graphs with easy-to-build funnels.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Check them out, and maybe you too will start recommend these tools.&lt;/p&gt;</content><author><name></name></author><summary type="html">2016 is coming to an end. Time to reflect on the tools that made a difference in our e-commerce ventures.</summary></entry><entry><title type="html">Bootstrap Ruby on Rails project</title><link href="http://localhost:4000/2016/09/10/bootstrap-rails-project.html" rel="alternate" type="text/html" title="Bootstrap Ruby on Rails project" /><published>2016-09-10T18:55:00-04:00</published><updated>2016-09-10T18:55:00-04:00</updated><id>http://localhost:4000/2016/09/10/bootstrap-rails-project</id><content type="html" xml:base="http://localhost:4000/2016/09/10/bootstrap-rails-project.html">&lt;p&gt;Rails comes with a few convenient tasks such as &lt;code class=&quot;highlighter-rouge&quot;&gt;rails db:setup&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;rails db:seed&lt;/code&gt; to help programers get started. These tasks are common and known by anyone with some experience with Ruby on Rails.&lt;/p&gt;
+
+&lt;p&gt;In our playbook, we encourage programmers launch existing projects through &lt;code class=&quot;highlighter-rouge&quot;&gt;rails db:bootstrap&lt;/code&gt; or the short version &lt;code class=&quot;highlighter-rouge&quot;&gt;rails db:bs&lt;/code&gt;. This executes several standard rake tasks but also load sample data in the database. When developing or testing an application it is often easier to start with some data.&lt;/p&gt;
+
+&lt;p&gt;The role of the sample data tasks is to load only a few records so you’re not looking at a blank screen. For example, one admin user, 2-3 normal users/clients and a few other records per model to ensure pagination is visible for instance.&lt;/p&gt;
+
+&lt;p&gt;One benefit is you can drop the database more frequently and still ensures that everything works. Moreover, by delegating  creation of sample data to the faker or ffaker gem, you get a mix of short and long names which helps you make sure that your UI does not break (a common pitfall is to manually create data with the same text again and again).&lt;/p&gt;
+
+&lt;p&gt;To create a new rake task to bootstrap your rails application, simply create a new file under &lt;code class=&quot;highlighter-rouge&quot;&gt;lib/tasks&lt;/code&gt; with the following content.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;namespace :db do
+  desc 'Load sample data from db/sample_data.rb'
+  task sample_data: :environment do
+    seed_file = File.join(Rails.root, 'db', 'sample_data.rb')
+    load(seed_file) if File.exist?(seed_file)
+  end
+
+  desc 'Drop, create, migrate, seed and sample_data'
+  task bootstrap: [:drop, :create, :migrate, :seed, :sample_data]
+end
+
+task bs: &quot;db:bootstrap&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We reserve &lt;code class=&quot;highlighter-rouge&quot;&gt;seeds&lt;/code&gt; file for required data common to all environments (development, testing, production…), such as tax rates or list of provinces for example.&lt;/p&gt;</content><author><name></name></author><category term="collaboration" /><category term="rails" /><category term="software" /><summary type="html">Rails comes with a few convenient tasks such as rails db:setup or rails db:seed to help programers get started. These tasks are common and known by anyone with some experience with Ruby on Rails.</summary></entry><entry><title type="html">Build a web service from a spreadsheet</title><link href="http://localhost:4000/2016/08/19/sheetsu.html" rel="alternate" type="text/html" title="Build a web service from a spreadsheet" /><published>2016-08-19T09:23:00-04:00</published><updated>2016-08-19T09:23:00-04:00</updated><id>http://localhost:4000/2016/08/19/sheetsu</id><content type="html" xml:base="http://localhost:4000/2016/08/19/sheetsu.html">&lt;p&gt;&lt;a href=&quot;https://sheetsu.com&quot;&gt;Sheetsu&lt;/a&gt; is a great tool to turn any spreadsheet (Google Sheets) into a REST API. It lets you save or query a spreadsheet just like a database.&lt;/p&gt;
+
+&lt;p&gt;We do not track customers’ gender in our e-commerce applications, however, it is essential to know who our customer base is. So, we’ve imported the most common first names into Google sheets and turn it into a searchable database.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/articles/google_sheets.png&quot; alt=&quot;Google Sheets as a database&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sheetsu lets us search by column name and return results as JSON.&lt;/p&gt;
+
+&lt;pre&gt;
+$ curl https://sheetsu.com/apis/v1.0/xxxxx/normalized/alain
+=&amp;gt; [{&quot;first_name&quot;:&quot;Alain&quot;,&quot;gender&quot;:&quot;m&quot;,&quot;normalized&quot;:&quot;alain&quot;}]
+&lt;/pre&gt;
+
+&lt;p&gt;We can then compare customers’ first names against our master list and provide statistics, such as:&lt;/p&gt;
+
+&lt;pre&gt;
+male: 25 (25%)
+female: 65 (65%)
+undetermined: 5 (5%)
+no match: 5 (5%)
+&lt;/pre&gt;
+
+&lt;p&gt;The beauty of such system is that anyone knows how to use a spreadsheet making super easy to enrich and improve the list. Easy to implement, easy to maintain, everyone wins.&lt;/p&gt;</content><author><name></name></author><category term="api" /><category term="web service" /><summary type="html">Sheetsu is a great tool to turn any spreadsheet (Google Sheets) into a REST API. It lets you save or query a spreadsheet just like a database.</summary></entry><entry><title type="html">Zapier + Formtastic</title><link href="http://localhost:4000/2016/08/17/zapier-formtastic.html" rel="alternate" type="text/html" title="Zapier + Formtastic" /><published>2016-08-17T15:55:00-04:00</published><updated>2016-08-17T15:55:00-04:00</updated><id>http://localhost:4000/2016/08/17/zapier-formtastic</id><content type="html" xml:base="http://localhost:4000/2016/08/17/zapier-formtastic.html">&lt;p&gt;We’re pleased to announce that &lt;a href=&quot;https://formz.herokuapp.com&quot;&gt;Formtastic&lt;/a&gt; supports &lt;a href=&quot;https://zapier.com&quot;&gt;Zapier&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On top of CSV and JSON export support, you can now integrate any web form with hundreds of apps such as, Google Sheets, Trello, Gmail, Basecamp, Dropbox, and Slack. Sky is the limit!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/articles/zapier_make_a_zap.png&quot; alt=&quot;Make a Zap&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Automate your workflow by triggering actions when you receive a new submission. For instance, “Create Trello card”, “Update spreadsheet”, or “Add contact into my CMS”.&lt;/p&gt;
+
+&lt;p&gt;We’ve put together a &lt;a href=&quot;https://formz.herokuapp.com/zapier&quot;&gt;quick guide&lt;/a&gt; to get started.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://formz.herokuapp.com&quot;&gt;Formtastic&lt;/a&gt; is a form endpoint for designers and developers, acting as  back-end solution for web forms’ submissions. Sign up for free.&lt;/p&gt;</content><author><name></name></author><category term="software" /><category term="api" /><summary type="html">We’re pleased to announce that Formtastic supports Zapier.</summary></entry><entry><title type="html">Gravitons</title><link href="http://localhost:4000/2016/05/03/gravitons.html" rel="alternate" type="text/html" title="Gravitons" /><published>2016-05-03T16:32:00-04:00</published><updated>2016-05-03T16:32:00-04:00</updated><id>http://localhost:4000/2016/05/03/gravitons</id><content type="html" xml:base="http://localhost:4000/2016/05/03/gravitons.html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://jxnblk.com/gravitons/&quot;&gt;Gravitons&lt;/a&gt; is an extremely lightweight suite of CSS layout utilities based on modular scales and inspired by the Unix Philosophy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As per &lt;a href=&quot;http://jxnblk.com/&quot;&gt;Brent Jackson&lt;/a&gt;, the original author of the project&lt;/p&gt;
+
+&lt;p&gt;We’ve been playing around with our interpretation and came up with even a shorter list of declarations that serves as baseline for all our projects.
+We did throw in a few colours to align with our global ‘variables’ file that gets adjusted for each project. This makes it very easy to position Bootstrap components and provides the best of both worlds (layout/positioning of built-in elements such as navigation). Very little custom CSS gets needed at the end.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/olimart/ba358e400689d2dc2d0b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And in case you were wondering, the graviton is a hypothetical elementary particle that mediates the force of gravitation in the framework of quantum field theory.&lt;/p&gt;</content><author><name></name></author><category term="software" /><category term="project" /><category term="open source" /><summary type="html">Gravitons is an extremely lightweight suite of CSS layout utilities based on modular scales and inspired by the Unix Philosophy.</summary></entry><entry><title type="html">Shiptower</title><link href="http://localhost:4000/2015/12/12/shiptower.html" rel="alternate" type="text/html" title="Shiptower" /><published>2015-12-12T17:06:00-05:00</published><updated>2015-12-12T17:06:00-05:00</updated><id>http://localhost:4000/2015/12/12/shiptower</id><content type="html" xml:base="http://localhost:4000/2015/12/12/shiptower.html">&lt;p&gt;&lt;a href=&quot;https://shiptower.herokuapp.com&quot;&gt;Shiptower&lt;/a&gt; is a seamless shipping fulfillment software.&lt;/p&gt;
+
+&lt;p&gt;It integrates with your e-commerce store, Point of Sale (POS) solution and any custom software. It can auto import order, handle dispatch to your warehouse for processing or print label. It support multiple warehouses and connect to Quickbooks Online.&lt;/p&gt;
+
+&lt;p&gt;Manage Sales Representatives with custom price lists, create purchase orders, track inventory globally across multiple warehouses. The objective is to automate orders handling and shipping. One single place to manage it all.&lt;/p&gt;
+
+&lt;p&gt;Each warehouse is different and most still rely on file sharing through FTP. However, we can build custom integration with your warehouse. &lt;a href=&quot;Get in touch&quot;&gt;https://shiptower.herokuapp.com/contact&lt;/a&gt; for more information.&lt;/p&gt;</content><author><name></name></author><summary type="html">Shiptower is a seamless shipping fulfillment software.</summary></entry></feed>

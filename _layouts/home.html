@@ -1,0 +1,31 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+<main class="container" aria-label="Content">
+  {%- include header.html -%}
+  <div class="posts">
+    {% for post in site.posts -%}
+      <div class="post">
+        <span class="h3 post-date">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ post.date | date: date_format }}
+        </span>
+        <h2 class="h3 post-title">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+      </div>
+    {%- endfor -%}
+    <p class="feed-subscribe orange">
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+      </svg>
+      <a href="{{ "/feed.xml" | relative_url }}">Subscribe</a>
+    </p>
+  </div>
+  <!-- {%- include pagination.html -%} -->
+</main>

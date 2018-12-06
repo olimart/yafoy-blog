@@ -1,0 +1,66 @@
+<footer>
+  <div class="container large">
+    <div class="row">
+      <div class="three columns">
+        <ul>
+          <li class="title">Products</li>
+          {% for product in site.data.products %}
+            <li>
+              <a href="{{ product.url }}" target="_blank">
+                {{ product.name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">E-commerce</li>
+          {% for project in site.data.projects %}
+            <li>
+              <a href="{{ project.url }}" target="_blank">
+                {{ project.name }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Services</li>
+          <li>
+            <a href="{{ http://yafoy.com/en#services }}">
+              Web Application Development
+            </a>
+          </li>
+          <li>
+            <a href="{{ http://yafoy.com/en#services }}">
+              Business Requirements Gathering
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Contact</li>
+          <li>
+            <a href="{{ http://yafoy.com/en#contact?utm_source=blog }}">
+              Call us
+            </a>
+          </li>
+          <li>
+            <a href="{{ http://yafoy.com/en#contact?utm_source=blog }}">
+              Write us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright bg-grey-light">
+  <div class="container large center">
+    © {{ "today" | date: "%Y" }}
+    yafoy - Design & Copy
+  </div>
+</div>

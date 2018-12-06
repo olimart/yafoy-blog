@@ -1,0 +1,29 @@
+/*
+ * Articles index
+ * --------------------------------------------------
+ */
+.posts {
+  margin-bottom: 4rem;
+}
+
+.post {
+  margin-bottom: 1.8rem;
+
+  .post-date {
+    float: left;
+  }
+  .post-title {
+    text-align: right;
+    font-weight: normal;
+  }
+}
+
+/*
+ * Article show
+ * --------------------------------------------------
+ */
+article {
+  img { max-width: 720px; }
+}
+
+.featured-project { margin-top: 4rem; }

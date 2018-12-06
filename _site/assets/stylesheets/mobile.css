@@ -1,0 +1,12 @@
+/* Mobile first queries */
+/* Larger than mobile */
+@media (max-width: 550px) {
+  .post-date {
+    display: none; }
+
+  .post-title {
+    text-align: left !important; } }
+/* Larger than phablet */
+/* Larger than tablet */
+/* Larger than desktop */
+/* Larger than Desktop HD */

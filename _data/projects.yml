@@ -1,0 +1,12 @@
+- name: Joli Bento
+  url: https://jolibento.com
+  description: Traditional Bento Lunch Box from Japan
+  image: bento.png
+- name: Les Bonbecs
+  url: https://lesbonbecs.com
+  description: Candy from all over the world without leaving home
+  image: bonbecs.png
+- name: T•Surprise
+  url: http://tsurprise.com
+  description: Enjoy our selection of Tea, infusion and herbal tea delivered each month to your door
+  image: tsurprise.png

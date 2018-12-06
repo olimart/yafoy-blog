@@ -1,0 +1,13 @@
+<div class="row featured-project">
+  <div class="two columns">
+    <a href="{{ project.url }}" target="_blank">
+      {%- assign img_url = "/assets/images/projects/" | append: include.image %}
+      <img src="{{ img_url | relative_url }}" alt="{{ project.name }}" width="100">
+    </a>
+  </div>
+  <div class="ten columns">
+    <strong>{{ include.name | escape }}</strong>
+    <br>
+    {{ include.description | escape }}
+  </div>
+</div>

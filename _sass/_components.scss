@@ -1,0 +1,85 @@
+@import "colors";
+
+/**
+ * Lists
+ */
+ul {
+  li {
+    list-style: none;
+
+    &:before {
+      content: '■';
+      color: $black;
+      margin: 0 16px 0 0;
+    }
+  }
+}
+
+/**
+ * Typography
+ */
+strong {
+  color: $black;
+}
+
+/**
+ * Links
+ */
+.orange a,
+.orange a:active,
+.orange a:visited { color: $orange !important; }
+
+.post-title {
+  a:visited {
+    -webkit-text-decoration-line: line-through !important;
+            text-decoration-line: line-through !important;
+    &:hover { text-decoration: none }
+  }
+}
+
+/**
+ * Code
+ */
+pre {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 1em;
+  margin-bottom: 1em;
+  overflow: scroll;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+/**
+ * Quote
+ */
+blockquote {
+  text-align: center;
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-light;
+}
+
+/**
+ * Helpers
+ */
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.bg-grey-light { background: $grey-light; }
+.orange { color: $orange; }
+
+/**
+ * Icons
+ */
+.svg-icon {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  fill: currentColor;
+  padding-right: 5px;
+}
