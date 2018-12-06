@@ -1,124 +1,726 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>yafoy blog</title>
-    
-    <!-- <title>yafoy blog</title> -->
-    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style type="text/css"></style>
-    <link href="assets/stylesheets/application.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <div class="container">
-        <header>
-  <a href="/"><img width="40px" src="assets/images/yafoy-mark.png" /></a>
-  <h1>yafoy journal</h1>
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Le journal de Yafoy | We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps.</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Le journal de Yafoy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps." />
+<meta property="og:description" content="We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps." />
+<link rel="canonical" href="http://blog.yafoy.com/" />
+<meta property="og:url" content="http://blog.yafoy.com/" />
+<meta property="og:site_name" content="Le journal de Yafoy" />
+<script type="application/ld+json">
+{"headline":"Le journal de Yafoy","description":"We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps.","name":"Le journal de Yafoy","@type":"WebSite","url":"http://blog.yafoy.com/","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/stylesheets/application.css"><link type="application/atom+xml" rel="alternate" href="http://blog.yafoy.com/feed.xml" title="Le journal de Yafoy" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-714749-17', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <!-- Middleman carry over to check -->
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <!-- <title><%= current_page.data.title || "yafoy blog" %></title>
+  <%= yield_content :amp %>
+  <!-- <title>yafoy blog<%#= ' - ' + current_article.title unless current_article.nil? %></title> -->
+</head>
+<body>
+    <main class="container" aria-label="Content"><header>
+  <a href="/" rel="author">
+    <img src="assets/images/yafoy-mark.png" alt="logo" width="40px">
+  </a>
+  <h1>Le journal de Yafoy</h1>
 </header>
-
-
-      
-
 <div class="posts">
     <div class="post">
-      <span class="h3 post-date">Jan 30, 2018</span>
-      <h2 class="h3 post-title"><a href="blog/2018/01/changelog-as-a-service/">Changelog As A Service</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Dec  8, 2017</span>
-      <h2 class="h3 post-title"><a href="blog/2017/12/warehouse-robots-overview/">Warehouse Robots Overview</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Dec 20, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/12/magik-api-is-zapier-for-enterprise/">Magik API is Zapier for the Enterprise</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Dec 19, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/12/formtastic-supports-auto-response/">Formtastic supports auto response</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Dec 14, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/12/tool-belt-update/">Tool belt update</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Sep 10, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/09/bootstrap-rails-project/">Bootstrap Ruby on Rails project</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Aug 19, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/08/sheetsu/">Build a web service from a spreadsheet</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Aug 17, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/08/zapier-formtastic/">Zapier + Formtastic</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">May  3, 2016</span>
-      <h2 class="h3 post-title"><a href="blog/2016/05/gravitons/">Gravitons</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Dec 12, 2015</span>
-      <h2 class="h3 post-title"><a href="blog/2015/12/shiptower/">Shiptower</a></h2>
-      
-    </div>
-    <div class="post">
-      <span class="h3 post-date">Oct 27, 2015</span>
-      <h2 class="h3 post-title"><a href="blog/2015/10/client-retention-for-saas-applications/">Client retention for SaaS applications</a></h2>
-      
-    </div>
+        <span class="h3 post-date">Jan 29, 2018
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2018/01/29/changelog-as-a-service.html">
+            Changelog As A Service
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 8, 2017
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2017/12/08/warehouse-robots-overview.html">
+            Warehouse Robots Overview
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 19, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/12/19/magik-api-is-zapier-for-enterprise.html">
+            Magik API is Zapier for the Enterprise
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 18, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/12/18/formtastic-supports-auto-response.html">
+            Formtastic supports auto response
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 14, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/12/14/tool-belt-update.html">
+            Toolbelt update
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Sep 10, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/09/10/bootstrap-rails-project.html">
+            Bootstrap Ruby on Rails project
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 19, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/08/19/sheetsu.html">
+            Build a web service from a spreadsheet
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 17, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/08/17/zapier-formtastic.html">
+            Zapier + Formtastic
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 3, 2016
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2016/05/03/gravitons.html">
+            Gravitons
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 12, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/12/12/shiptower.html">
+            Shiptower
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Oct 26, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/10/26/client-retention-for-saas-applications.html">
+            Client retention for SaaS applications
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 20, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/04/20/micro-services-in-rails-application.html">
+            Micro services with Rails
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Mar 7, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/03/07/formtastic.html">
+            Form endpoint for programmers and designers
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Feb 16, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/02/16/logcamp.html">
+            Logcamp
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jan 15, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/01/15/central-id-an-oauth2-provider-for-your-apps.html">
+            Central ID an OAuth2 provider for your apps
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jan 5, 2015
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2015/01/05/code-review-with-style-introducing-codeguard.html">
+            Code review with style: introducing Codeguard
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Oct 17, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/10/17/appel-doffres-au-quebec.html">
+            Appel d&#39;offres au Québec
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 30, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/07/30/have-a-tech-blog-the-lonely-planet-example.html">
+            Have a tech blog, the Lonely Planet example
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 28, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/05/28/ecommerce-record-store.html">
+            eCommerce Record Store
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 5, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/05/05/commerce-as-a-service-caas.html">
+            Commerce As A Service (CaaS)
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 25, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/04/25/switching-cost-in-project-management.html">
+            Switching cost in project management
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Feb 4, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/02/04/mixture-review-a-front-end-development-tool-for-designers-and-developers.html">
+            Mixture review, a front-end development tool for designers and developers
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jan 18, 2014
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2014/01/18/heroku-like-own-paas.html">
+            Heroku-like, have your own PaaS
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Nov 27, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/11/27/fixing-software-development-within-goc.html">
+            Fixing software development within GoC
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Oct 1, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/10/01/twelve-Factor-app.html">
+            Twelve-Factor app
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 19, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/08/19/example-de-proposition-de-service-complementaire.html">
+            Example de proposition de service complémentaire
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 17, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/08/17/bento-lunch-box-from-japan.html">
+            Bento, lunch box from Japan
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 23, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/07/23/summer-is-here-but-not-slowdown.html">
+            Summer is here...but no slowdown yet
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 29, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/05/29/Training-is-an-activity.html">
+            Training is an activity
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 23, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/04/23/delgation-e-commerce-pour-petits-sites.html">
+            Délégation e-commerce pour petits sites
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Mar 25, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/03/25/les-bonbecs-site-e-commerce-de-bonbons.html">
+            Les Bonbecs, site e-commerce de bonbons
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Mar 1, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/03/01/looking-back-on-timehub-launch.html">
+            Looking back on Timehub launch
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Feb 1, 2013
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2013/02/01/introducing-timehub-an-invoicing-solution-for-github.html">
+            Introducing Timehub an invoicing solution for GitHub
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 21, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/12/21/la-culture-dentreprise.html">
+            La culture d&#39;entreprise
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 14, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/12/14/frank-oak-an-online-clothing-club.html">
+            Frank &amp; Oak an online clothing club
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 7, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/12/07/oscar-niemeyer.html">
+            Oscar Niemeyer
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Nov 26, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/11/26/nouvelle-version-du-site-yafoy.html">
+            Nouvelle version du site yafoy.com
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Nov 8, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/11/08/why-you-should-convince-users-that-less-is-more.html">
+            Why you should convince users that &quot;less is more&quot;
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Oct 19, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/10/19/this-is-our-philosophy-regarding-usability-on-the-web.html">
+            This is our Philosophy regarding usability on the web
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Sep 12, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/09/12/le-renouveau-du-yogourt-au-canada.html">
+            Le renouveau du yogourt au Canada
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 10, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/08/10/la-gestion-de-projets-et-relation-client-quel-logiciel.html">
+            La gestion de projets et relation client: quel logiciel?
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 29, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/05/29/cross-channel-marketing-and-daily-deals-sites.html">
+            Cross-channel marketing and daily deals sites
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 4, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/05/04/collect-signature-on-ipad.html">
+            Collect signature on iPad
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 6, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/04/06/flower-inventory-management-system.html">
+            Flower Inventory Management System
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 5, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/04/05/ux-and-wireframes-on-ipad.html">
+            UX and wireframes on iPad
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Mar 2, 2012
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2012/03/02/easy-accounting-for-all.html">
+            Easy Accounting for all
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Dec 5, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/12/05/designing-email-for-mobile-daily-deal-study-case.html">
+            Designing email for mobile: daily deal study case
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Nov 15, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/11/15/productivity-tool-for-consultants-and-freelancers.html">
+            Productivity tool for Consultants and Freelancers
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Sep 20, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/09/20/wordpress-creed-and-company-culture-for-new-employees.html">
+            Wordpress Creed and Company Culture for new employees
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Sep 12, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/09/12/projectlog-The-easy-way-to-send-timesheet-and-invoices-for-consultants.html">
+            Projectlog: The easy way to send timesheet and invoices for Consultants
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 16, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/08/16/airbnb-customer-protection-measures.html">
+            AirBnb Customer Protection Measures
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jun 17, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/06/17/bmw-motorrad-website-redesign-user-experience.html">
+            BMW Motorrad website redesign &amp; user experience
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jun 16, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/06/16/dallas-mavericks-are-the-new-nba-champion.html">
+            Dallas Mavericks are the new NBA champion
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 7, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/05/07/jimmy-fairly-buy-one-give-one.html">
+            Jimmy Fairly, buy one give one
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">May 3, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/05/03/riboond-has-a-logo.html">
+            Riboond has a logo
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 13, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/04/13/designers-what-should-your-creative-notebook-look-like.html">
+            Designers what should your creative notebook look like
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Apr 3, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/04/03/coming-up-a-fundraising-platform-for-art-and-creative-projects.html">
+            Coming up a fundraising platform for art and creative projects
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Feb 21, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/02/21/magazine-subscription-an-unchanged-process-for-more-than-30-years.html">
+            Magazine subscription, an unchanged process for more than 30 years
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jan 19, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/01/19/nike-better-world-message.html">
+            Nike Better World Message
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jan 19, 2011
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2011/01/19/looking-back-ten-business-models-that-rocked-in-2010.html">
+            Looking back, Ten business models that rocked in 2010
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Nov 21, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/11/21/acharnement-fiscal-en-france.html">
+            Acharnement fiscal en France
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Nov 1, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/11/01/step-3-finding-the-right-partners-to-develop-your-site.html">
+            Step 3: Finding the right partners to develop YOUR site
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 28, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/08/28/les-soldes-aubaines-et-autres-reductions-dans-commerce-de-detail.html">
+            Les soldes, aubaines et autres réductions dans commerce de détail
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 28, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/08/28/discovery-based-shopping-and-private-sales-site.html">
+            Discovery-based shopping and private-sales site
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Aug 8, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/08/08/domain-name-war.html">
+            Domain Name War
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 29, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/07/29/step-2-finding-payment-gateway-in-canada.html">
+            Step 2: Finding Payment Gateway in Canada
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 16, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/07/16/web-players-advertise-on-canadian-tv.html">
+            Web players advertise on Canadian TV
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 13, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/07/13/why-miami-will-not-win-NBA-title-in-2010.html">
+            Why Miami will not win the NBA title in 2010
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 8, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/07/08/first-day-as-e-businessman.html">
+            First Day as e-Businessman
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 5, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/07/05/step-1-finding-company-name-and-building-identity.html">
+            Step 1: Finding Company Name and building Identity
+          </a>
+        </h2>
+      </div><div class="post">
+        <span class="h3 post-date">Jul 3, 2010
+        </span>
+        <h2 class="h3 post-title">
+          <a href="/2010/07/03/heads-up.html">
+            Heads Up
+          </a>
+        </h2>
+      </div><p class="feed-subscribe orange">
+      <svg class="svg-icon">
+        <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+      </svg>
+      <a href="/feed.xml">Subscribe</a>
+    </p>
+  </div>
+  <!--<div class="pagination">
+  
+    <span class="previous">Previous</span>
+  
+  <span class="page_number ">
+    Page:  of 
+  </span>
+  
+    <span class="next ">Next</span>
+  
 </div>
-
-
-
-      <!-- <aside>
-      </aside> -->
-    </div>
-    <footer>
+-->
+</main>
+<footer>
   <div class="container large">
     <div class="row">
       <div class="three columns">
         <ul>
           <li class="title">Products</li>
-            <li><a target="_blank" href="https://log.camp/">Logcamp</a></li>
-            <li><a target="_blank" href="https://centralid.herokuapp.com/">Central ID</a></li>
-            <li><a target="_blank" href="https://codeguard.herokuapp.com/">Codeguard</a></li>
-            <li><a target="_blank" href="https://formz.herokuapp.com/">Formtastic</a></li>
-            <li><a target="_blank" href="https://shiptower.herokuapp.com/">Shiptower</a></li>
+          
+            <li>
+              <a href="https://log.camp/" target="_blank">
+                Logcamp
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://centralid.herokuapp.com/" target="_blank">
+                Central ID
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://codeguard.herokuapp.com/" target="_blank">
+                Codeguard
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://formz.herokuapp.com/" target="_blank">
+                Formtastic
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://shiptower.herokuapp.com/" target="_blank">
+                Shiptower
+              </a>
+            </li>
+          
         </ul>
       </div>
       <div class="three columns">
         <ul>
           <li class="title">E-commerce</li>
-            <li><a target="_blank" href="https://jolibento.com">Joli Bento</a></li>
-            <li><a target="_blank" href="https://lesbonbecs.com">Les Bonbecs</a></li>
-            <li><a target="_blank" href="http://tsurprise.com">T•Surprise</a></li>
+          
+            <li>
+              <a href="https://jolibento.com" target="_blank">
+                Joli Bento
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://lesbonbecs.com" target="_blank">
+                Les Bonbecs
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://tsurprise.com" target="_blank">
+                T•Surprise
+              </a>
+            </li>
+          
         </ul>
       </div>
       <div class="three columns">
         <ul>
           <li class="title">Services</li>
-          <li><a href="http://yafoy.com/en#services">Web Application Development</a></li>
-          <li><a href="http://yafoy.com/en#services">Business Requirements Gathering</a></li>
+          <li>
+            <a href="">
+              Web Application Development
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Business Requirements Gathering
+            </a>
+          </li>
         </ul>
       </div>
       <div class="three columns">
         <ul>
           <li class="title">Contact</li>
-          <li><a href="http://yafoy.com/en#contact?utm_source=blog">Call us</a></li>
-          <li><a href="http://yafoy.com/en#contact?utm_source=blog">Write us</a></li>
+          <li>
+            <a href="">
+              Call us
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Write us
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -126,19 +728,11 @@
 </footer>
 <div class="copyright bg-grey-light">
   <div class="container large center">
-    © 2018 yafoy - Design & Copy
+    © 2018
+    yafoy - Design & Copy
   </div>
 </div>
-
-    <script src="//use.typekit.net/dkj0zdv.js"></script>
+<script src="//use.typekit.net/dkj0zdv.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-714749-17', 'auto');
-  ga('send', 'pageview');
-</script>
-  </body>
+</body>
 </html>

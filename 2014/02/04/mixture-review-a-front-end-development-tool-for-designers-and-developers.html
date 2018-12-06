@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Mixture review, a front-end development tool for designers and developers | Le journal de Yafoy</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Mixture review, a front-end development tool for designers and developers" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Mixture is a front-end development tool designed to make your life easier (another one). However Mixture really deserves your attention. Let me walk you through how we empowered its capacities to build a very simple website." />
+<meta property="og:description" content="Mixture is a front-end development tool designed to make your life easier (another one). However Mixture really deserves your attention. Let me walk you through how we empowered its capacities to build a very simple website." />
+<link rel="canonical" href="http://blog.yafoy.com/2014/02/04/mixture-review-a-front-end-development-tool-for-designers-and-developers.html" />
+<meta property="og:url" content="http://blog.yafoy.com/2014/02/04/mixture-review-a-front-end-development-tool-for-designers-and-developers.html" />
+<meta property="og:site_name" content="Le journal de Yafoy" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-02-04T00:00:00-05:00" />
+<script type="application/ld+json">
+{"headline":"Mixture review, a front-end development tool for designers and developers","dateModified":"2014-02-04T00:00:00-05:00","datePublished":"2014-02-04T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://blog.yafoy.com/2014/02/04/mixture-review-a-front-end-development-tool-for-designers-and-developers.html"},"description":"Mixture is a front-end development tool designed to make your life easier (another one). However Mixture really deserves your attention. Let me walk you through how we empowered its capacities to build a very simple website.","@type":"BlogPosting","url":"http://blog.yafoy.com/2014/02/04/mixture-review-a-front-end-development-tool-for-designers-and-developers.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/stylesheets/application.css"><link type="application/atom+xml" rel="alternate" href="http://blog.yafoy.com/feed.xml" title="Le journal de Yafoy" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-714749-17', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+  <!-- Middleman carry over to check -->
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <!-- <title><%= current_page.data.title || "yafoy blog" %></title>
+  <%= yield_content :amp %>
+  <!-- <title>yafoy blog<%#= ' - ' + current_article.title unless current_article.nil? %></title> -->
+</head>
+<body>
+    <main class="container" aria-label="Content"><header>
+  <a href="/" rel="author">
+    <img src="/assets/images/yafoy-mark.png" alt="logo" width="40px">
+  </a>
+</header>
+<!-- <% content_for :amp do %>
+    <link rel="amphtml" href="https://mercury.postlight.com/amp?url=<%= 'http://blog.yafoy.com' + current_page.url %>">
+  <% end %> -->
+
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="center">
+      Mixture review, a front-end development tool for designers and developers
+    </h1>
+    <p><a href="http://mixture.io">Mixture</a> is a front-end development tool designed to make your life easier (another one). However Mixture really deserves your attention. Let me walk you through how we empowered its capacities to build a very simple website.</p>
+
+<p><strong>The objective</strong></p>
+
+<ul>
+  <li>
+    <p>Code as fast as we could a very simple website with a new tool. The current trend is to build SPA (single page applications) however we went for classic multi-pages static site (multiple page or partials doesn’t really change the amount of files in your project)</p>
+  </li>
+  <li>
+    <p>Having a rough design on paper we immediately started to place the various elements on the page</p>
+  </li>
+  <li>
+    <p>Then the real stuff begins. How to keep templates light? How to reuse components? How to integrate with Angular for example? How to include JSON files?…</p>
+  </li>
+</ul>
+
+<p>We’ve leveraged a couple of Mixture specific snippets such as the site map function which lets you build navigation elements (using the model data mixture.sitemap)</p>
+
+<p>After a few iterations, we re-used models and included shared data on different blocks to remain DRY</p>
+
+<ul>
+  <li>Keep playing with JSON since use cases are going to explode</li>
+</ul>
+
+<p><strong>What we like</strong></p>
+
+<ul>
+  <li>
+    <p>Even though a built-in web server is more and more frequent in front-end tools it’s always nice to see it running without additional work from you. Live updates, means always up-to-date pages. Code on one screen, preview instantly on your second display. It just works</p>
+  </li>
+  <li>
+    <p>JSON driven. Coming from the MVC world being able to separate data from the views is quite nice. This way HTML templates remain free from clutter and extra noise</p>
+  </li>
+  <li>
+    <p>Liquid template engine is a good choice. There are other options out there (Mustache, HAML…) but liquid is a reasonable and complete solution. Create liquid loops from JSON files is the way to go</p>
+  </li>
+  <li>
+    <p>Again, coming from Ruby on Rails, support for preprocessors like Sass, LESS, CoffeeScript and Compass is a requirement</p>
+  </li>
+  <li>
+    <p>Boilerplates and templates. Start from a set of defined boilerplates or your own template. In most cases we end up deleting all files but loading Twitter Bootstrap or Zurb Foundation from source is a nice addition</p>
+  </li>
+  <li>
+    <p>FTP server integration</p>
+  </li>
+</ul>
+
+<p><strong>Conclusion</strong></p>
+
+<p>We don’t code many static sites but Mixture is now part of our workflow. We can’t wait to use it in conjunction of
+<a href="http://macaw.co">Macaw</a> another very promising web design tool.</p>
+
+<p>We like open-source technology, however for certain elements we leveraged Mixture own magic (navigation). It would be great not to have to so when we change tool it just continues to work. We could have done it without Mixture but more code and since there was no time to waste</p>
+
+<p>By the way you can publish a live copy on Mixture servers for fast iteration and client feedback. 1-click only.</p>
+
+  </article>
+  <div id="featured-project"></div>
+</main>
+
+<script type="text/javascript">
+  let wrapper = document.getElementById("featured-project")
+  let projects = [{"name":"Joli Bento","url":"https://jolibento.com","description":"Traditional Bento Lunch Box from Japan","image":"bento.png"},{"name":"Les Bonbecs","url":"https://lesbonbecs.com","description":"Candy from all over the world without leaving home","image":"bonbecs.png"},{"name":"T•Surprise","url":"http://tsurprise.com","description":"Enjoy our selection of Tea, infusion and herbal tea delivered each month to your door","image":"tsurprise.png"}]
+  let project = projects[Math.floor(Math.random()*projects.length)]
+  let imgURL = "/assets/images/projects/" + project.image
+  let content = `
+  <div class="row featured-project">
+    <div class="two columns">
+      <a href="${project.url}" target="_blank">
+        <img src="${imgURL}" alt="${project.name }" width="100">
+      </a>
+    </div>
+    <div class="ten columns">
+      <strong>${project.name}</strong>
+      <br>
+      ${project.description}
+    </div>
+  </div>`
+  wrapper.innerHTML = content
+</script>
+<footer>
+  <div class="container large">
+    <div class="row">
+      <div class="three columns">
+        <ul>
+          <li class="title">Products</li>
+          
+            <li>
+              <a href="https://log.camp/" target="_blank">
+                Logcamp
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://centralid.herokuapp.com/" target="_blank">
+                Central ID
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://codeguard.herokuapp.com/" target="_blank">
+                Codeguard
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://formz.herokuapp.com/" target="_blank">
+                Formtastic
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://shiptower.herokuapp.com/" target="_blank">
+                Shiptower
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">E-commerce</li>
+          
+            <li>
+              <a href="https://jolibento.com" target="_blank">
+                Joli Bento
+              </a>
+            </li>
+          
+            <li>
+              <a href="https://lesbonbecs.com" target="_blank">
+                Les Bonbecs
+              </a>
+            </li>
+          
+            <li>
+              <a href="http://tsurprise.com" target="_blank">
+                T•Surprise
+              </a>
+            </li>
+          
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Services</li>
+          <li>
+            <a href="">
+              Web Application Development
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Business Requirements Gathering
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="three columns">
+        <ul>
+          <li class="title">Contact</li>
+          <li>
+            <a href="">
+              Call us
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Write us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="copyright bg-grey-light">
+  <div class="container large center">
+    © 2018
+    yafoy - Design & Copy
+  </div>
+</div>
+<script src="//use.typekit.net/dkj0zdv.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+</body>
+</html>
