@@ -3,6 +3,6 @@
 /.cache
 /.sass-cache
 /build
-_site
+_site/*
 .jekyll-metadata
 /_tmp/
