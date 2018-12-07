@@ -76,10 +76,6 @@ task bs: "db:bootstrap"
 </main>
 
 <script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function() {
-    this.setRandomProject();
-  });
-  
   function setRandomProject() {
     let wrapper = document.getElementById("featured-project")
     let projects = [{"name":"Joli Bento","url":"https://jolibento.com","description":"Traditional Bento Lunch Box from Japan","image":"bento.png"},{"name":"Les Bonbecs","url":"https://lesbonbecs.com","description":"Candy from all over the world without leaving home","image":"bonbecs.png"},{"name":"T•Surprise","url":"http://tsurprise.com","description":"Enjoy our selection of Tea, infusion and herbal tea delivered each month to your door","image":"tsurprise.png"}]
@@ -100,6 +96,8 @@ task bs: "db:bootstrap"
     </div>`
     wrapper.innerHTML = content
   }
+
+  document.addEventListener("DOMContentLoaded", setRandomProject);
 </script>
 <footer>
   <div class="container large">
