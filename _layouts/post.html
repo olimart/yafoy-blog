@@ -19,22 +19,28 @@ layout: default
 </main>
 
 <script type="text/javascript">
-  let wrapper = document.getElementById("featured-project")
-  let projects = {{ site.data.projects | jsonify }}
-  let project = projects[Math.floor(Math.random()*projects.length)]
-  let imgURL = "/assets/images/projects/" + project.image
-  let content = `
-  <div class="row featured-project">
-    <div class="two columns">
-      <a href="${project.url}" target="_blank">
-        <img src="${imgURL}" alt="${project.name }" width="100">
-      </a>
-    </div>
-    <div class="ten columns">
-      <strong>${project.name}</strong>
-      <br>
-      ${project.description}
-    </div>
-  </div>`
-  wrapper.innerHTML = content
+  document.addEventListener("DOMContentLoaded", function() {
+    this.setRandomProject();
+  });
+  
+  function setRandomProject() {
+    let wrapper = document.getElementById("featured-project")
+    let projects = {{ site.data.projects | jsonify }}
+    let project = projects[Math.floor(Math.random()*projects.length)]
+    let imgURL = "/assets/images/projects/" + project.image
+    let content = `
+    <div class="row featured-project">
+      <div class="two columns">
+        <a href="${project.url}" target="_blank">
+          <img src="${imgURL}" alt="${project.name }" width="100">
+        </a>
+      </div>
+      <div class="ten columns">
+        <strong>${project.name}</strong>
+        <br>
+        ${project.description}
+      </div>
+    </div>`
+    wrapper.innerHTML = content
+  }
 </script>
