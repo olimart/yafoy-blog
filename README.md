@@ -16,9 +16,9 @@ Clone your repo's gh-pages branch into the _site directory:
 $ git clone -b gh-pages `git config remote.origin.url` _site
 
 Final steps: Just let jekyll build, do commit & push:
-
 $ JEKYLL_ENV=production bundle exec jekyll build
-$ cd into _site:
+
+cd into _site:
 $ cd _site
 
 target all files for commit:

@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://blog.yafoy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://blog.yafoy.com/" rel="alternate" type="text/html" /><updated>2018-12-07T10:27:28-05:00</updated><id>http://blog.yafoy.com/feed.xml</id><title type="html">Le journal de Yafoy</title><subtitle>We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps.</subtitle><entry><title type="html">Changelog As A Service</title><link href="http://blog.yafoy.com/2018/01/29/changelog-as-a-service.html" rel="alternate" type="text/html" title="Changelog As A Service" /><published>2018-01-29T23:50:00-05:00</published><updated>2018-01-29T23:50:00-05:00</updated><id>http://blog.yafoy.com/2018/01/29/changelog-as-a-service</id><content type="html" xml:base="http://blog.yafoy.com/2018/01/29/changelog-as-a-service.html">&lt;p&gt;Kicking off 2018 with a new product called Supportive combining both the functions of Knowledge Base and Changelog.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://blog.yafoy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://blog.yafoy.com/" rel="alternate" type="text/html" /><updated>2018-12-07T11:23:40-05:00</updated><id>http://blog.yafoy.com/feed.xml</id><title type="html">Le journal de Yafoy</title><subtitle>We write about e-commerce, entrepreneurship, online strategy and Ruby on Rails. We automate business and tasks through the development of web apps.</subtitle><entry><title type="html">E-commerce &amp;amp; Marketing Automation</title><link href="http://blog.yafoy.com/e-commerce/automation/event/2018/12/07/e-commerce-&-marketing-automation.html" rel="alternate" type="text/html" title="E-commerce &amp; Marketing Automation" /><published>2018-12-07T10:34:41-05:00</published><updated>2018-12-07T10:34:41-05:00</updated><id>http://blog.yafoy.com/e-commerce/automation/event/2018/12/07/e-commerce-&amp;-marketing-automation</id><content type="html" xml:base="http://blog.yafoy.com/e-commerce/automation/event/2018/12/07/e-commerce-&amp;-marketing-automation.html">&lt;p&gt;2018 brought a lot of automation in our e-commerce marketing. Not that you are talking with a robot when you are interacting with us, but when you are a small team keeping track of time spent on each activity is important.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We want to focus on content creation, not on content dissemination.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On the technical side we are also shifting toward an event-driven approach in the development of our platforms (event-based).&lt;/p&gt;
+
+&lt;p&gt;We’ve also invested quite some time to integrate with Drip. Drip is a great product with a terrible customer support (not recommending at the moment).
+However, their product is e-commerce oriented and chose it over Mailchimp for example.&lt;/p&gt;
+
+&lt;p&gt;In these days of ephemeral stories on social media, we’ve decided to step up our email marketing.&lt;/p&gt;
+
+&lt;p&gt;With &lt;a href=&quot;https://tsurprise.com&quot;&gt;T•Surprise&lt;/a&gt; we’ve made the choice to provide more useful content to our subscribers but also promote our written content (&lt;a href=&quot;https://tsurprise.com/blog&quot;&gt;blog&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;We’ve put together a strategy around:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;E-commerce&lt;/li&gt;
+  &lt;li&gt;Online marketing&lt;/li&gt;
+  &lt;li&gt;Automation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;e-commerce&quot;&gt;E-commerce&lt;/h3&gt;
+
+&lt;p&gt;People interact online through different channels and on different devices:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Website&lt;/li&gt;
+  &lt;li&gt;Social media&lt;/li&gt;
+  &lt;li&gt;Meetups&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These people take actions turning into events:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Clicked on link&lt;/li&gt;
+  &lt;li&gt;Submitted form&lt;/li&gt;
+  &lt;li&gt;Placed an order&lt;/li&gt;
+  &lt;li&gt;Contacted support&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;online-marketing&quot;&gt;Online Marketing&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Marketing consists of converting events into conversations (with an old friend).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since we are all different but share common goals it is important to segment users and conversation types (job interview, first date, long-time friendship, mother-daughter discussion…).&lt;/p&gt;
+
+&lt;p&gt;This implies defining for each event:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tone of the discussion&lt;/li&gt;
+  &lt;li&gt;When to respond&lt;/li&gt;
+  &lt;li&gt;Channel&lt;/li&gt;
+  &lt;li&gt;Message&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;automation&quot;&gt;Automation&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Automation is the art of responding wisely to customers as they interact with you&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This implies defining some common scenarios and how to engage the conversation in each situation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;When a (new or existing) customer tries to place an order but gives up, I want my support team to follow-up in a timely manner, be helpful, and provide incentive to complete purchase.&lt;/p&gt;
+
+&lt;p&gt;Automation results in the creation of sequences to move around the conversation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reminder, when there is dialogue, there is hope.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve adopted &lt;a href=&quot;https://www.drip.com/resources/workflows&quot;&gt;Drip workflows&lt;/a&gt; to document and automate our response to events through our platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/articles/drip_workflow.png&quot; alt=&quot;Drip workflow example&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2018 brought a lot of automation in our e-commerce marketing. Not that you are talking with a robot when you are interacting with us, but when you are a small team keeping track of time spent on each activity is important.</summary></entry><entry><title type="html">Changelog As A Service</title><link href="http://blog.yafoy.com/2018/01/29/changelog-as-a-service.html" rel="alternate" type="text/html" title="Changelog As A Service" /><published>2018-01-29T23:50:00-05:00</published><updated>2018-01-29T23:50:00-05:00</updated><id>http://blog.yafoy.com/2018/01/29/changelog-as-a-service</id><content type="html" xml:base="http://blog.yafoy.com/2018/01/29/changelog-as-a-service.html">&lt;p&gt;Kicking off 2018 with a new product called Supportive combining both the functions of Knowledge Base and Changelog.&lt;/p&gt;
 
 &lt;p&gt;Looking back at this blog we’ve realized that we shipped a lot but did not write enough. As we all say, we’ll do better next year. At least, we’ll try.&lt;/p&gt;
 
@@ -121,10 +193,4 @@ We did throw in a few colours to align with our global ‘variables’ file that
 
 &lt;script src=&quot;https://gist.github.com/olimart/ba358e400689d2dc2d0b.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;And in case you were wondering, the graviton is a hypothetical elementary particle that mediates the force of gravitation in the framework of quantum field theory.&lt;/p&gt;</content><author><name></name></author><category term="software" /><category term="project" /><category term="open source" /><summary type="html">Gravitons is an extremely lightweight suite of CSS layout utilities based on modular scales and inspired by the Unix Philosophy.</summary></entry><entry><title type="html">Shiptower</title><link href="http://blog.yafoy.com/2015/12/12/shiptower.html" rel="alternate" type="text/html" title="Shiptower" /><published>2015-12-12T17:06:00-05:00</published><updated>2015-12-12T17:06:00-05:00</updated><id>http://blog.yafoy.com/2015/12/12/shiptower</id><content type="html" xml:base="http://blog.yafoy.com/2015/12/12/shiptower.html">&lt;p&gt;&lt;a href=&quot;https://shiptower.herokuapp.com&quot;&gt;Shiptower&lt;/a&gt; is a seamless shipping fulfillment software.&lt;/p&gt;
-
-&lt;p&gt;It integrates with your e-commerce store, Point of Sale (POS) solution and any custom software. It can auto import order, handle dispatch to your warehouse for processing or print label. It support multiple warehouses and connect to Quickbooks Online.&lt;/p&gt;
-
-&lt;p&gt;Manage Sales Representatives with custom price lists, create purchase orders, track inventory globally across multiple warehouses. The objective is to automate orders handling and shipping. One single place to manage it all.&lt;/p&gt;
-
-&lt;p&gt;Each warehouse is different and most still rely on file sharing through FTP. However, we can build custom integration with your warehouse. &lt;a href=&quot;Get in touch&quot;&gt;https://shiptower.herokuapp.com/contact&lt;/a&gt; for more information.&lt;/p&gt;</content><author><name></name></author><summary type="html">Shiptower is a seamless shipping fulfillment software.</summary></entry></feed>
+&lt;p&gt;And in case you were wondering, the graviton is a hypothetical elementary particle that mediates the force of gravitation in the framework of quantum field theory.&lt;/p&gt;</content><author><name></name></author><category term="software" /><category term="project" /><category term="open source" /><summary type="html">Gravitons is an extremely lightweight suite of CSS layout utilities based on modular scales and inspired by the Unix Philosophy.</summary></entry></feed>
