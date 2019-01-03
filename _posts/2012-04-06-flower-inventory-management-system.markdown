@@ -4,7 +4,7 @@ title: Flower Inventory Management System
 date: '2012-04-06'
 tags:
 - cut-flower-system
-- erp
+- ERP
 - inventory-management
 - project
 - web-design-2

@@ -48,4 +48,4 @@ We don’t code many static sites but Mixture is now part of our workflow. We ca
 
 We like open-source technology, however for certain elements we leveraged Mixture own magic (navigation). It would be great not to have to so when we change tool it just continues to work. We could have done it without Mixture but more code and since there was no time to waste
 
-By the way you can publish a live copy on Mixture servers for fast iteration and client feedback. 1-click only.
+By the way, you can publish a live copy of your site on Mixture servers for fast prototype and client feedback in 1-click only.
